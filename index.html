@@ -1,0 +1,984 @@
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+</head>
+
+
+<style>
+    .wrap {
+        width: 960px;
+        height: 40px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .left {
+        width: 290px;
+        height: 30px;
+        position: absolute;
+        top: 28px;
+        left: 0px;
+        margin: 0 auto;
+        /* border: 1px solid #000; */
+    }
+
+    .left ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+
+    }
+
+    .left li {
+        margin: 0;
+        padding: 0;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .left a {
+        list-style: none;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        color: grey;
+    }
+
+    .left a:hover {
+
+        color: #000;
+    }
+
+    .haeder {
+        width: 960px;
+        height: auto;
+        margin: 0 auto;
+        /* border: 1px solid rgb(201, 200, 200);  */
+        overflow: hidden;
+
+    }
+
+    .top {
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 153px;
+        height: 48px;
+        margin-top: 10px;
+        float: left;
+    }
+
+
+    .tbun {
+        width: 390px;
+        height: 28px;
+        /* border: 1px solid rgb(201, 186, 186); */
+        float: right;
+        margin: 10px;
+        margin-top: 10px;
+
+
+    }
+
+    .tbun ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .tbun li {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+    .tbun span {
+        width: 83px;
+
+        border: 1px solid rgb(179, 177, 177);
+        border-bottom: 3px solid rgb(7, 185, 7);
+        margin-left: 8px;
+        margin-top: 11px;
+        display: block;
+        color: grey
+    }
+
+    .tbun a {
+        list-style: none;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .tbun span:hover {
+        color: rgb(202, 196, 196);
+    }
+
+    input {
+        width: 390px;
+        height: 30px;
+        float: left;
+        margin-top: 15px;
+    }
+
+    .nav {
+        background-color: rgb(137, 206, 35);
+        width: 960px;
+        height: 43px;
+        border: 1px solid gray;
+    }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .nav ul li {
+        margin: 0;
+        padding: 0;
+        float: left;
+        margin-left: 35px;
+    }
+
+    .nav ul li a {
+        color: honeydew;
+        text-decoration: none;
+        display: block;
+        line-height: 42px
+    }
+
+    .nav ul li a:hover {
+        background-color: rgb(4, 131, 4);
+    }
+
+    h3 {
+        margin: 5px 0px;
+    }
+
+    .key {
+        width: 760px;
+        height: 28px;
+        border: 1px solid ghostwhite;
+        float: left;
+    }
+
+    .key ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+
+    .key ul li {
+        margin: 0;
+        padding: 0;
+        float: left;
+
+    }
+
+    .key a {
+        font-size: 12px;
+        margin: 8px;
+        text-decoration: none;
+        color: gray
+    }
+
+    .key a:hover {
+        color: rgb(204, 204, 207)
+    }
+
+
+    .key li {
+        color: green;
+        font-size: 12px;
+    }
+
+
+
+
+    .banner img {
+        float: left;
+    }
+
+    .b2 {
+        width: 960px;
+        height: 86px;
+        margin: 0 auto;
+        /* border: 1px solid #000; */
+
+    }
+
+    .b21 {
+        width: 220px;
+        height: 86px;
+        margin: 2px;
+        margin-bottom: 8px;
+        margin-right: 16px;
+
+        float: left;
+        position: relative;
+
+
+    }
+
+    .b22 {
+        width: 218px;
+        height: 72px;
+        background-image: url(pi/9.jpg);
+        border-top: 2px solid green;
+        margin-bottom: 5px;
+    }
+
+    .b221 {
+        width: 218px;
+        height: 72px;
+        background-image: url(pi/10.jpg);
+        border-top: 2px solid green;
+        margin-bottom: 5px;
+    }
+
+    .b222 {
+        width: 218px;
+        height: 72px;
+        background-image: url(pi/11.jpg);
+        border-top: 2px solid green;
+        margin-bottom: 5px;
+    }
+
+
+    .b23 {
+        width: 218px;
+        height: 64px;
+        /* border: 1px solid #000; */
+        top: 48px;
+        right: -126px;
+        position: absolute;
+        color: grey;
+        font-size: 12px;
+    }
+
+    .h3 {
+        width: 220px;
+        height: 21px;
+        /* border: 1px solid #000; */
+    }
+
+    .b21 img {
+        width: 218px;
+        height: 73px;
+        border-top: 2px solid green;
+
+    }
+
+    .b3 .box {
+        width: 220px;
+        height: 165px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        margin: 6px;
+        margin-left: 10px;
+        float: left;
+
+    }
+
+    .b3 {
+        width: 960px;
+        height: 189px;
+        /* border: 1px solid #000; */
+        margin: 0 auto;
+    }
+
+    /* .b3 img {
+        margin: 6px;
+        margin-left: 10px;
+    } */
+    .b3 img:hover {
+        transform: scale(1.2);
+    }
+
+
+
+    .b4 {
+        width: 960px;
+        height: 178px;
+        /* border: 1px solid #000; */
+        margin: 0 auto;
+    }
+
+    .b4 img {
+        margin: 0px;
+
+
+
+    }
+
+    .B41 {
+        width: 222px;
+        height: 175px;
+        /* border: 1px solid #000; */
+        float: left;
+        margin-right: 16px;
+
+
+    }
+
+    .b411 {
+        width: 222px;
+        height: 22px;
+        /* border: 1px solid #000; */
+
+    }
+
+    .b411 h3 {
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+    p {
+        margin-top: -13px;
+    }
+
+    .b412 {
+        width: 220px;
+        height: 52px;
+        border: 1px solid rgb(236, 231, 231);
+    }
+
+     .b412{
+         font-size: 8px;
+     }
+    .b412>h3 {
+        color: green;
+
+    }
+
+    .media {
+        width: 960px;
+        height: 199px;
+        border: 1px solid rgb(245, 240, 240); 
+        margin: 0 auto;
+        background-color: rgb(248, 250, 252);
+        margin-top: 5px;
+    }
+
+    .m0 {
+        width: 302px;
+        height: 218px;
+        float: left;
+        /* border: 1px solid #000; */
+    }
+
+    .m1 {
+        width: 300px;
+        height: 45px;
+        /* border: 1px solid #000; */
+    }
+
+    .m11 {
+        width: 134px;
+        height: 45px;
+        /* border: 1px solid #000; */
+        float: left;
+        margin-top: 7px;
+        margin-left: 3px;
+
+    }
+
+    .m11 img {
+
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+
+    .m111 {
+        width: 88px;
+        height: 44px;
+        /* border: 1px solid #000; */
+        float: left;
+        font-size: 12px;
+        padding-left: 4px;
+    }
+
+    /* .icon{
+        background-position: -40px 0px;
+        width: 40px;
+        height: 40px;
+    } */
+    .soc {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/s1.jpg);
+        background-position: -40px 0px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .m2 {
+        width: 292px;
+        height: auto;
+        /* border: 1px solid #000; */
+        margin-top: 5PX;
+    }
+
+    .soc1 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/s1.jpg);
+        background-position: -196px 0px;
+        width: 24px;
+        height: 40px;
+    }
+
+    .soc2 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/s1.jpg);
+        background-position: -247px 0px;
+        width: 24px;
+        height: 40px;
+    }
+
+    .soc3 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/s1.jpg);
+        background-position: -221px 0px;
+        width: 24px;
+        height: 40px;
+    }
+
+    .soc4 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/14.jpg);
+        /* background-position: -171px 0px; */
+        width: 24px;
+        height: 24px;
+    }
+
+    .soc5 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/13.jpg);
+
+        width: 24px;
+        height: 24px;
+    }
+
+    .soc6 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/s1.jpg);
+        background-position: -271px 0px;
+        width: 24px;
+        height: 40px;
+    }
+
+    .soc7 {
+        float: left;
+        display: block;
+        margin: 0;
+        background: url(pi/s1.jpg);
+        background-position: -118px 0px;
+        width: 24px;
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+    .m3 {
+        width: 642px;
+        height: 195px;
+        /* border: 1px solid #000; */
+        float: left;
+        margin-top: 27px;
+
+
+    }
+
+    .m31 {
+        width: 180px;
+        height: 155px;
+        /* border: 1px solid #000; */
+        float: left;
+        margin-left: 27px;
+       
+        margin-top: 10px;
+
+    }
+
+    .m311 {
+        width: 180px;
+        height: 25px;
+        /* border: 1px solid #000; */
+        font-size: 12px;
+
+    }
+
+    .m312 {
+        width: 180px;
+        height: 25px;
+        /* border: 1px solid #000; */
+    }
+
+    .m313 {
+        width: 199px;
+        height: 80px;
+        /* border: 1px solid #000; */
+
+    }
+
+    .m3131 {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-left: -47px;
+        /* border: 1px solid #000; */
+    }
+
+    .m3132 {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-left: 10px;
+        /* border: 1px solid #000; */
+    }
+
+    /* ----------------------------------------footer------------------------------------- */
+
+    .footer {
+        width: 960px;
+        height: 116px;
+        border: 1px solid white;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .lft {
+        width: 600px;
+        height: 95px;
+         border: 1px solid white;
+       
+    }
+
+    .lft span{
+        position: absolute;
+        top:0px;
+        left:90px;
+        font-size: 8px;
+        margin-top: 3px;
+    }
+
+    .lft1 {
+      
+      display: block;
+      margin: 0;
+      background: url(ft.png);
+      background-position: -0px -88px;
+      width: 80px;
+      height: 20px;
+  }  
+
+  .rft{
+      position: absolute;
+      top:0px;
+      right: 20px;
+      width: 153px;
+      height: 54px;
+      /* border: 1px solid #000; */
+  }  
+   .lft ul{
+       margin-top: 5px;
+       list-style: none;
+       padding: 0;
+       margin: 0;
+       overflow: hidden
+   }
+   
+   .lft li{
+       margin: 0;
+       padding: 0;
+       float: left;
+       font-size: 8px;
+       margin-right: 22px;
+   }
+   .lft2{
+       margin-top: 5px;
+       font-size: 8px;
+   }
+
+</style>
+
+
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="left">
+            <ul>
+                <li><a href="https://www.family.com.tw/marketing/inquiry.aspx"> 店鋪查詢 </a></li>
+                <li><a href=""> 常見問題</a></li>
+                <li><a href=""> 聯絡我們</a></li>
+                <li><a href=""> Englishg</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="haeder">
+        <div class="top">
+            <img class="logo" src="pi/logo.jpg">
+
+            <input type="text">
+
+            <div class="tbun">
+                <ul>
+                    <li><a href="https://www.family.com.tw/Web_EnterPrise/page/index.aspx"><span>企業網站</span></a></li>
+                    <li><a href="https://www.family.com.tw/Web_Franchise/page/index.aspx"><span>加盟網站</span></a></li>
+                    <li><a href="#"><span>人力資源</span></a></li>
+                    <li><a href="#"><span>全家商場</span></a></li>
+                </ul>
+            </div>
+            <div class="key">
+                <ul>
+                    <li> 熱門: </li>
+                    <li><a href="https://www.family.com.tw/marketing/publicList.aspx"> 中奬公告</a> </li>
+                    <li><a href=""> 熱門</a> </li>
+                    <li><a href=""> 友善食光</a> </li>
+                    <li><a href=""> MyFamilypay</a> </li>
+                    <li><a href=""> 禮物卡至大戶屋</a> </li>
+                    <li><a href=""> 沃克消費</a> </li>
+                    <li><a href=""> 支付優惠</a> </li>
+                    <li><a href="">FamilyMart Collection</a> </li>
+
+
+                </ul>
+            </div>
+
+
+
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">
+                        <h3>網站導覽</h3>
+                    </a></li>
+                <li><a href="https://www.family.com.tw/marketing/event.aspx">
+                        <h3>最新活動</h3>
+                    </a></li>
+                <li><a href="https://www.family.com.tw/marketing/product.aspx">
+                        <h3>新品情報</h3>
+                    </a></li>
+                <li><a href="https://www.famiport.com.tw/Web_Famiport/page/index.aspx">
+                        <h3>Famiport</h3>
+                    </a></li>
+                <li><a href="https://www.family.com.tw/marketing/convenience_sp.aspx">
+                        <h3>便利服務</h3>
+                    </a></li>
+                <li><a href="https://www.family.com.tw/marketing/famiclub/">
+                        <h3>會員中心</h3>
+                    </a></li>
+                <li><a href="">
+                        <h3>會家行動購</h3>
+                    </a></li>
+                <li><a href="https://event.family.com.tw/Preorder/">
+                        <h3>商品預售</h3>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="pi/1.jpg" width="698px" height="265px">
+            <img src="pi/2.jpg" width="260px" height="130px">
+            <img src="pi/3.jpg" width="260px" height="130px">
+
+        </div>
+
+
+
+
+    </div>
+    <div class="b2">
+        <div class="b21">
+            <div class="h3">新品上市</div>
+            <div class="b22"></div>
+            <div class="b23">發燒新貨報到<br>快來挖掘好物</div>
+
+        </div>
+        <div class="b21">
+            <div class="h3">熱門活動</div>
+
+            <div class="b221"></div>
+            <div class="b23">天天都優惠<br>參加活動享好康</div>
+        </div>
+        <div class="b21">
+            <div class="h3">支付優惠</div>
+
+            <div class="b222"></div>
+            <div class="b23">使用支付工具<br>享多項優惠</div>
+        </div>
+        <div class="b21">
+            <div class="h3">玩樂生活</div>
+            <img src="pi/b19.jpg"   width="218px" height="74px">
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <div class="b3">
+        <div class="box">
+            <img src="pi/c1.jpg">
+        </div>
+
+
+        <div class="box">
+            <img src="pi/c2.jpg">
+        </div>
+
+
+        <div class="box">
+            <img src="pi/c3.jpg">
+        </div>
+
+
+
+        <div class="box">
+            <img src="pi/c4.png">
+        </div>
+
+
+
+    </div>
+    <div class="b4">
+        <div class="b41">
+            <div class="b411">
+                <h3>特色商品</h3>
+            </div>
+            <img src="pi/5.jpg">
+            <div class="b412">
+                <h3>全館$399up免運</h3>
+            </div>
+        </div>
+
+        <div class="b41">
+            <div class="b411">
+                <h3>預購精選</h3>
+            </div>
+            <img src="pi/6.jpg">
+            <div class="b412">
+                108/06/19~108/09/03 <br>
+                <h3>中秋預購</h3><br>
+                <p>指定商品MyFamiPay傳付款單件95折
+                </p>
+            </div>
+        </div>
+
+        <div class="b41">
+            <div class="b411">
+                <h3>全家告示欄</h3>
+            </div>
+            <img src="pi/7.jpg">
+            <div class="b412">
+                <h3>友善食光一起愛地球</h3><br>
+                <p> 把鮮食吃光光</p>
+
+            </div>
+        </div>
+
+        <div class="b41">
+            <div class="b411">
+                <h3>生活關係企業</h3>
+            </div>
+            <img src="pi/8.jpg">
+            <div class="b412">
+                108/06/19~108/09/03 <br>
+                <h3>全員獨享紅利活動</h3><br>
+                <p>享發卡9.10月會員紅利兌換
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="media">
+        <div class="m0">
+            <div class="m1">
+                <div class="m11">
+                    <img src="pi/logo2.jpg">
+                    <div class="m111">全家familylmart <br>粉絲團</div>
+                </div>
+                <div class="m11">
+                    <div class="soc"></div>
+                    <div class="m111">全家在這裡<br>粉絲團</div>
+                </div>
+            </div>
+            <div class="m2">
+                <div class="m11">
+                    <div class="soc1"></div>
+                    <div class="m111">famichannel專區</div>
+                </div>
+                <div class="m11">
+                    <div class="soc2"></div>
+                    <div class="m111">Famiclub</div>
+                </div>
+                <div class="m11">
+                    <div class="soc3"></div>
+                    <div class="m111">全家在這裡部落格</div>
+                </div>
+                <div class="m11">
+                    <div class="soc4"></div>
+                    <div class="m111">famiwifi</div>
+                </div>
+                <div class="m11">
+                    <div class="soc5"></div>
+                    <div class="m111">FamilyMart Instagram</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="m3">
+
+
+            <div class="m31">
+                <div class="m311">全家FamilyMart App</div>
+                <div class="m312">
+                    <div class="soc6"></div>
+                    <div class="soc7"></div>
+                    掃描立即下載
+                </div>
+                <div class="m313">
+                    <div class="m3131"><img src="pi/logo2.jpg"></div>
+                    <div class="m3132"><img src="pi/logo3.jpg" width="80px" height="80px"></div>
+                </div>
+            </div>
+
+
+            <div class="m31">
+                <div class="m311">全家FamilyMart App </div>
+                <div class="m312">
+                    <div class="soc6"></div>
+                    <div class="soc7"></div>
+                    掃描立即下載
+                </div>
+                <div class="m313">
+                    <div class="m3131"><img src="pi/logo4.jpg"></div>
+                    <div class="m3132"><img src="pi/logo5.jpg" width="80px" height="80px"></div>
+                </div>
+            </div>
+
+            <div class="m31">
+                <div class="m311">全家line宫方帳號</div>
+                <div class="m312"><img src="pi/logo6.jpg" width="80px" height="27px"></div>
+                <div class="m313">
+                    <img src="pi/logo3.jpg" width="80px" height="80px">
+
+                </div>
+            </div>
+
+
+            
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="lft">
+            <div class="lft1"></div> <span>全家便利商股份有限公司</span>
+            <ul>
+                <li>104台北市中山區中路二段61號7號</li>
+                <li>TEL02-25239588</li>
+                <li>客服專線08000211-363</li>
+            </ul>
+            <div class="lft2">隱私權聲明個資告知項<br>
+                copyright(c)2013FamilyMart All right reserved
+            </div>
+            <div class="rft">
+                <img src="pi/show.gif">
+            </div>
+        </div>
+
+
+
+
+
+</body>
+
+</html>
